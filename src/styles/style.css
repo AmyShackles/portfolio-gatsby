@@ -778,6 +778,15 @@ input:checked + .flip-card-inner {
 .name {
   margin: 0;
 }
+.avatar-wrapper {
+  width: 40%;
+  max-width: 256px;
+}
 .content-holder.main-page {
   margin-top: 15px !important;
+}
+@media screen and (max-width: 768px) {
+  .content-holder.main-page {
+    margin-top: -50px !important;
+  }
 }

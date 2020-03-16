@@ -18,8 +18,8 @@ const Avatar = ({ children }) => {
     query {
       placeholderImage: file(relativePath: { eq: "profile.png" }) {
         childImageSharp {
-          fixed(width: 256, height: 256) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 256, quality: 100) {
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
@@ -27,7 +27,12 @@ const Avatar = ({ children }) => {
   `)
 
   return (
-    <Img id="github_logo" fixed={data.placeholderImage.childImageSharp.fixed} />
+    <div className="avatar-wrapper">
+      <Img
+        id="github_logo"
+        fluid={data.placeholderImage.childImageSharp.fluid}
+      />
+    </div>
   )
 }
 
