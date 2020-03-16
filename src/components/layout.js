@@ -8,8 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import { Link } from "gatsby"
 import Header from "./header"
+import GithubIcon from "../images/github.svg"
+import LinkedInIcon from "../images/linkedin.svg"
+import TwitterIcon from "../images/twitter-square.svg"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -26,20 +29,83 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      <nav role="navigation" className="topnav desktop" id="myTopNav">
+        <Link to="/about"> About </Link>
+        <Link to="/blog">Blog</Link>
+        <div className="dropdown" type="button">
+          <a
+            className="dropbtn"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Projects
+          </a>
+          <div className="dropdown-content">
+            <Link to="/projects/baseConverter">Base Converter</Link>
+            <Link className="active" to="/projects/checkYourDigits">
+              Check Your Digits
+            </Link>
+            <Link to="/projects/contractAlchemy">Contract Alchemy</Link>
+            <Link to="/projects/iconsForGreatGood">Icons for Great Good</Link>
+            <Link to="/projects/lispInterpreter">Lisp Interpreter</Link>
+            <Link to="/projects/notesForGreatGood">Notes for Great Good</Link>
+          </div>
+        </div>
+        <Link to="/resume">Resume </Link> <Link to="/contact">Contact</Link>
+      </nav>
+      <nav role="navigation" className="responsive-nav responsive">
+        <a
+          className="icon dropdown"
+          role="button"
+          type="button"
+          data-toggle="dropdown"
+        >
+          ☰
+        </a>
+        <div className="dropdown-content">
+          <Link to="/about"> About </Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/projects">Projects </Link> <Link to="/resume">Resume</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
+      </nav>
+      {children}
+      <footer id="footer" role="contentinfo">
+        <ul>
+          <li className="policy-box">
+            <span>
+              © AmyShackles 2020
+              {new Date().getFullYear() !== 2020 &&
+                ` - ${new Date().getFullYear()}`}
+            </span>
+          </li>
+          <li>
+            <a
+              aria-label="link to Amy Shackles' Github profile"
+              href="https://github.com/amyshackles"
+            >
+              <img src={GithubIcon} alt="Github logo" />
+            </a>
+          </li>
+          <li>
+            <a
+              aria-label="link to Amy Shackles' Twitter profile"
+              href="https://twitter.com/amyshackles"
+            >
+              <img src={TwitterIcon} alt="Twitter logo" />
+            </a>
+          </li>
+          <li>
+            <a
+              aria-label="link to Amy Shackles' LinkedIn profile"
+              href="https://www.linkedin.com/in/amyshackles/"
+            >
+              <img src={LinkedInIcon} alt="LinkedIn logo" />
+            </a>
+          </li>
+        </ul>
+      </footer>
     </>
   )
 }
