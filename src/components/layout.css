@@ -190,15 +190,6 @@ html {
     url("../fonts/federo-v10-latin-regular.ttf") format("truetype"),
     url("../fonts/federo-v10-latin-regular.svg#Federo") format("svg");
 }
-* {
-  box-sizing: inherit;
-}
-*:before {
-  box-sizing: inherit;
-}
-*:after {
-  box-sizing: inherit;
-}
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-weight: normal;
