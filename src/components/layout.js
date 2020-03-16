@@ -31,7 +31,6 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <nav role="navigation" className="topnav desktop" id="myTopNav">
         <Link to="/about"> About </Link>
-        <Link to="/blog">Blog</Link>
         <div className="dropdown" type="button">
           <a
             className="dropbtn"
@@ -65,7 +64,6 @@ const Layout = ({ children }) => {
         </a>
         <div className="dropdown-content">
           <Link to="/about"> About </Link>
-          <Link to="/blog">Blog</Link>
           <Link to="/projects">Projects </Link> <Link to="/resume">Resume</Link>
           <Link to="/contact">Contact</Link>
         </div>
