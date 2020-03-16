@@ -1,8 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import TwitterIcon from "../images/twitter-square.svg"
-import GithubIcon from "../images/github.svg"
-import LinkedInIcon from "../images/linkedin.svg"
 import SEO from "../components/seo"
 import "../styles/style.css"
 
@@ -30,32 +27,6 @@ const ContactPage = () => (
               amyshackles@gmail.com
             </a>
           </h2>
-          <ul>
-            <li>
-              <a
-                aria-label="link to Amy Shackles' Github profile"
-                href="https://github.com/amyshackles"
-              >
-                <img src={GithubIcon} alt="Github logo" />
-              </a>
-            </li>
-            <li>
-              <a
-                aria-label="link to Amy Shackles' Twitter profile"
-                href="https://twitter.com/amyshackles"
-              >
-                <img src={TwitterIcon} alt="Twitter logo" />
-              </a>
-            </li>
-            <li>
-              <a
-                aria-label="link to Amy Shackles' LinkedIn profile"
-                href="https://www.linkedin.com/in/amyshackles/"
-              >
-                <img src={LinkedInIcon} alt="LinkedIn logo" />
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </main>
