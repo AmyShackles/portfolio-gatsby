@@ -9,7 +9,7 @@ import "../../styles/style.css"
 
 const NotesForGreatGood = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Notes For Great Good" />
     <div role="navigation">
       <div class="content-nav">
         <ul>

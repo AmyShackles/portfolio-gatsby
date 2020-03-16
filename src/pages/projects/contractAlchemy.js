@@ -9,7 +9,7 @@ import "../../styles/style.css"
 
 const ContractAlchemy = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Contract Alchemy" />
     <div role="navigation">
       <div class="content-nav">
         <ul>

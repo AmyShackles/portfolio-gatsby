@@ -1,10 +1,10 @@
 
 [[redirects]]
-    from = "https://affectionate-austin-95b556.netlify.com/*"
-    to = "https://affectionate-austin-95b556.netlify.com/:splat 301!"
+    from = "https://amyshackles.netlify.com/*"
+    to = "https://amyshackles.com/:splat 301!"
 
 [[redirects]]
-    from = "/blog/*"
+    from = "/blog"
     to = "https://modest-yonath-e1349c.netlify.com/:splat"
     status = 200
 

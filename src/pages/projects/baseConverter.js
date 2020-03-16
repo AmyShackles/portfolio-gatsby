@@ -8,7 +8,7 @@ import "../../styles/style.css"
 
 const BaseConverter = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Base Converter" />
     <div role="navigation">
       <div className="content-nav">
         <ul>

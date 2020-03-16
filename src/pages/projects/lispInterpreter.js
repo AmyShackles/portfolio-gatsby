@@ -8,7 +8,7 @@ import "../../styles/style.css"
 
 const LispInterpreter = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Lisp Interpreter" />
     <div role="navigation">
       <div className="content-nav">
         <ul>

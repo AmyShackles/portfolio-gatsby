@@ -8,7 +8,7 @@ import "../../styles/style.css"
 
 const CheckYourDigits = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Check Your Digits" />
     <div role="navigation">
       <div class="content-nav">
         <ul>
