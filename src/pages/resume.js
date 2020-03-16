@@ -100,7 +100,7 @@ const ResumePage = () => {
               <div className="twelve columns">
                 <h3>Skiplist</h3>
                 <h4 className="info">
-                  Software Developer <span>&bull;</span>
+                  Software Developer <span>&nbsp;&bull;&nbsp;</span>
                   <em className="date">May 2019-present</em>
                 </h4>
 
@@ -108,57 +108,75 @@ const ResumePage = () => {
                   ◆ Improved application performance by redesigning database
                   queries and restructuring schemas. Previous to these changes,
                   sorting of data in the application was impossible. Afterward,
-                  the data could be sorted and ltered using any criteria. <br />
+                </p>
+                <p>
                   ◆ Implemented Mongoose hooks to keep relational data
-                  consistent and up to date <br />◆ Mentored junior developers,
-                  troubleshooting issues as they arose <br />◆ Developed web
-                  applications using React, Redux, Node.js, Express.js, and
-                  MongoDB and an iOS application in Swift <br />◆ Advocated for
-                  and implemented increased testing, leading to an increase from
-                  0 to 100% code coverage in critical areas <br />◆ Refactored
-                  applications in various phases of the software development
-                  life cycle
+                  consistent and up to date.
+                </p>
+                <p>
+                  ◆ Mentored junior developers, troubleshooting issues as they
+                  arose.
+                </p>
+                <p>
+                  ◆ Developed web applications using React, Redux, Node.js,
+                  Express.js, and MongoDB and an iOS application in Swift.
+                </p>
+                <p>
+                  ◆ Advocated for and implemented increased testing, leading to
+                  an increase from 0 to 100% code coverage in critical areas.
+                </p>
+                <p>
+                  ◆ Refactored applications in various phases of the software
+                  development life cycle.
                 </p>
               </div>
             </div>
             <div className="row item">
               <div className="twelve columns">
                 <h3>Allegis Transcription</h3>
-                <p className="info">
-                  Quality Assurance Lead <span>&bull;</span>
+                <h4 className="info">
+                  Quality Assurance Lead <span>&nbsp;&bull;&nbsp;</span>
                   <em className="date">October 2016 - January 2018</em>
-                </p>
+                </h4>
                 <p>
                   ◆ Led a 4-person team responsible for performing quality
                   assessment of over 200 contractors on a quarterly basis
-                  <br />
+                </p>
+                <p>
                   ◆ Conducted 1:1 meetings with individuals falling below
                   quality standards to walk through assessments and provide
                   mentorship
-                  <br />
+                </p>
+                <p>
                   ◆ Trained new members of Quality Assurance team (including QA
                   Manager)
-                  <br />◆ Maintained spreadsheets tracking progress of QA team,
+                </p>
+                <p>
+                  ◆ Maintained spreadsheets tracking progress of QA team,
                   updating QA Manager on status
                 </p>
               </div>
               <div className="twelve columns">
                 <h3>Allegis Transcription</h3>
                 <h4 className="info">
-                  Quality Assurance Assistant <span>&bull;</span>
+                  Quality Assurance Assistant <span>&nbsp;&bull;&nbsp;</span>
                   <em className="date">September 2015 - October 2016</em>
                 </h4>
 
                 <p>
                   ◆ Compared insurance transcripts to the audio associated with
                   those claims to ensure accuracy of transcription
-                  <br />
+                </p>
+                <p>
                   ◆ Advocated for changes in QA policy to allow for priority
                   escalation
-                  <br />
+                </p>
+                <p>
                   ◆ Aided in establishing more measurable quality assurance
                   standards in order to standardize assessment
-                  <br />◆ Created and maintained spreadsheets to track QA team
+                </p>
+                <p>
+                  ◆ Created and maintained spreadsheets to track QA team
                   progress and track QA assessment history to observe patterns
                   in behavior
                 </p>
@@ -166,7 +184,7 @@ const ResumePage = () => {
               <div className="twelve columns">
                 <h3>Self-employed</h3>
                 <h4 className="info">
-                  Freelance Transcriptionist <span>&bull;</span>
+                  Freelance Transcriptionist <span>&nbsp;&bull;&nbsp;</span>
                   <em className="date">2007 - 2018</em>
                 </h4>
 
@@ -175,35 +193,39 @@ const ResumePage = () => {
                   contracts to provide strict, smart, and clean verbatim
                   transcripts in UK or US English formatted according to client
                   specifications
-                  <br />
+                </p>
+                <p>
                   ◆ Communicated with clients on any factors that may cause a
                   transcript to be completed after the agreed-upon deadline as
                   soon as those factors became apparent (poor audio quality,
                   accents I was unfamiliar with, etc.)
-                  <br />
+                </p>
+                <p>
                   ◆ Researched industry-specific information in order to ensure
                   accuracy
-                  <br />◆ Maintained strict confidentiality
                 </p>
+                <p>◆ Maintained strict confidentiality</p>
               </div>
               <div className="twelve columns">
                 <h3>Greenfield Advisors</h3>
                 <h4 className="info">
-                  Data Entry Clerk <span>&bull;</span>
+                  Data Entry Clerk <span>&nbsp;&bull;&nbsp;</span>
                   <em className="date">August 2013 - June 2014</em>
                 </h4>
 
                 <p>
                   ◆ Processed information from scanned documents to enter into a
                   database for further analysis
-                  <br />
+                </p>
+                <p>
                   ◆ Performed online research in order to standardize records
                   and provide the most complete information possible
-                  <br />
+                </p>
+                <p>
                   ◆ Created a spreadsheet to aggregate team resources in order
                   to improve consistency of data
-                  <br />◆ Maintained strict confidentiality
                 </p>
+                <p>◆ Maintained strict confidentiality</p>
               </div>
             </div>
           </div>
@@ -222,7 +244,7 @@ const ResumePage = () => {
                   Development Emphasis
                 </h3>
                 <h4 className="info">
-                  Lambda School <span>&bull;</span>
+                  Lambda School <span>&nbsp;&bull;&nbsp;</span>
                   <em className="date">April 2018 - October 2018</em>
                 </h4>
                 <p>
@@ -232,15 +254,16 @@ const ResumePage = () => {
                     here
                   </a>
                   .
-                  <br />◆ Collaborated with other students in Lambda Labs to
-                  create an application that met client specications and
-                  negotiated changes in project scope when our team went from a
-                  5-person team to a 3-person team in the beginning of the
-                  second week
+                </p>
+                <p>
+                  ◆ Collaborated with other students in Lambda Labs to create an
+                  application that met client specications and negotiated
+                  changes in project scope when our team went from a 5-person
+                  team to a 3-person team in the beginning of the second week
                 </p>
                 <h3>B.S. Psychology, Secondary major in Anthropology</h3>
                 <h4 className="info">
-                  Washington State University <span>&bull;</span>
+                  Washington State University <span>&nbsp;&bull;&nbsp;</span>
                   <em className="date">2007-2011</em>
                 </h4>
               </div>
@@ -258,7 +281,7 @@ const ResumePage = () => {
               <div className="twelve columns">
                 <h3>Crisis Interventionist</h3>
                 <h4 className="info">
-                  IMAlive <span>&bull;</span>
+                  IMAlive<span>&nbsp;&bull;&nbsp;</span>
                   <em className="date">June 2014 - January 2016</em>
                 </h4>
                 <p>
@@ -266,8 +289,10 @@ const ResumePage = () => {
                   volunteer hours in a year before switching to a supervisory
                   role where I supervised other crisis interventionist
                   volunteers
-                  <br />◆ Engaged in online chat conversations with individuals
-                  in crisis, providing acceptance, respect, and empathy while
+                </p>
+                <p>
+                  ◆ Engaged in online chat conversations with individuals in
+                  crisis, providing acceptance, respect, and empathy while
                   utilizing active listening skills to assess their situation
                   before providing information and/or referrals to get the help
                   and support they needed
@@ -275,11 +300,13 @@ const ResumePage = () => {
               </div>
             </div>
           </div>
-          <button className="columns download">
-            <a href={resume} download>
-              Download Resume
-            </a>
-          </button>
+          <div id="download-resume-button">
+            <button className="columns download">
+              <a href={resume} download>
+                Download Resume
+              </a>
+            </button>
+          </div>
         </div>
       </main>
     </Layout>

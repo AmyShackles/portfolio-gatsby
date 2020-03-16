@@ -617,9 +617,8 @@ button,
 }
 #resume .row {
   width: 80%;
-  /* font-size: 1.5rem; */
   flex-direction: column;
-  margin: auto;
+  margin: 1rem auto 0 auto;
 }
 #resume #tools-and-tech {
   display: flex;
@@ -789,4 +788,24 @@ input:checked + .flip-card-inner {
   .content-holder.main-page {
     margin-top: -50px !important;
   }
+}
+#download-resume-button {
+  display: flex;
+  margin: auto;
+}
+#resume h3 {
+  margin-bottom: 0.5rem;
+}
+#resume h4 {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+#resume p {
+  line-height: 1.5rem;
+  margin: 0;
+  margin-left: 1rem;
+  margin-bottom: 0.25rem;
+}
+#resume p:last-of-type {
+  margin-bottom: 1.5rem;
 }
