@@ -19,9 +19,11 @@ const IndexPage = () => (
         <h2 className="home-description">
           Full Stack Software Development Engineer
           <br />
-          Caffeine Addict
+          Calligrapher
           <br />
-          Debug Extraordinaire
+          Singer
+          <br />
+          Reasonable Cat Lady
         </h2>
         <Link
           to="/projects"
