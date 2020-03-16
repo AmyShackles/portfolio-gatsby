@@ -1,7 +1,7 @@
 
 [[redirects]]
-    from = "https://amyshackles.netlify.com/*"
-    to = "https://amyshackles.com/:splat 301!"
+    from = "https://affectionate-austin-95b556.netlify.com/*"
+    to = "https://affectionate-austin-95b556.netlify.com/:splat 301!"
 
 [[redirects]]
     from = "/blog/*"
@@ -14,13 +14,7 @@
         X-Frame-Options = "sameorigin"
         X-XSS-Protection = "1; mode=block"
         X-Content-Type-Options = "nosniff"
-        Content-Security-Policy = "default-src 'self'; img-src 'self' data:; base-uri 'self'; form-action 'self' https://repl.it; frame-ancestors 'self' https://repl.it; script-src 'sha256-HwYREq5Ua+oYW4Or0rulc3grjKGcmh3jT3w9DZuaEDk=' 'sha256-bfUd96f6+yN/4eiwtd6Jx80W4QY6FntJMMVfOSbCEs4='  'sha256-iiuo/qXealnB7Z0SMKFVxaVGSIRkRshYigit60tb0hU=' 'sha256-AI0o1xdDB4DksPdNv9XIpBecGsZsw0seu8ctLdVDQCE=' https://repl.it 'self'; object-src 'self'; style-src 'self' https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css https://repl.it 'sha256-tT6J3wgdhuI36nraN49j32pAaGFfNBL0A6Txy1b2pBU=' 'sha256-RrYrLU1h3SaSV+lswg8uQXyXMK/OMMyghx87FQCEZks='; child-src 'self' https://repl.it; connect-src 'self' https://repl.it; worker-src 'self'"
         Referrer-Policy = "no-referrer-when-downgrade"
-
-[[headers]]
-    for = "sw.js"
-    [headers.values]
-        Cache-Control = "max-age=0,no-cache,no-store,must-revalidate"
     
 [[headers]]
     for = "*.css"
