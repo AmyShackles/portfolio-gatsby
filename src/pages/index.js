@@ -8,7 +8,10 @@ import "../styles/style.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO
+      title="Home"
+      description="Seattle-based Full-stack Developer For Hire"
+    />
     <main>
       <div className="content-holder main-page">
         <Avatar />

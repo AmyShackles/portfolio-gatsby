@@ -6,7 +6,7 @@ import "../styles/style.css"
 
 const ProjectsPage = () => (
   <Layout>
-    <SEO title="Projects" />
+    <SEO title="Projects" description="Check out some examples of my work" />
     <main role="main">
       <div className="content-holder">
         <h1 className="page-title">Projects</h1>
