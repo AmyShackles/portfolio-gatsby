@@ -266,6 +266,49 @@ const ProjectsPage = () => (
               </div>
             </label>
           </div>
+          <div className="row">
+            <label>
+              <input type="checkbox" />
+              <div className="flip-card-inner">
+                <div className="flip-card-front right">
+                  <h2>Social Media Dashboard</h2>
+                  <p className="click-on">Click me!</p>
+                </div>
+                <div className="flip-card-back left">
+                  <h3>
+                    Static responsively designed social media dashboard with
+                    theme changer toggle to demonstrate ability to follow a
+                    design spec.
+                  </h3>
+                  <h3>Written with HTML, CSS, and plain JavaScript</h3>
+                  <div className="buttons">
+                    <Link
+                      id="socialMediaDashboardProjectDescription"
+                      to="/projects/socialMediaDashboard"
+                      role="button"
+                      type="button"
+                      className="button"
+                      aria-label="link to project description and design assets for Social Media Dashboard"
+                    >
+                      Project
+                      <br />
+                      Description
+                    </Link>
+                    <a
+                      id="socialMediaDashboardWebsite"
+                      href="https://social-dashboard-challenge.netlify.com/"
+                      role="button"
+                      type="button"
+                      className="button"
+                      aria-label="link to hosted Social Media Dashboard website"
+                    >
+                      Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
         </div>
       </div>
     </main>

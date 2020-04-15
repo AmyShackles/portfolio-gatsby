@@ -13,7 +13,7 @@ const BaseConverter = () => (
       <div className="content-nav">
         <ul>
           <li>
-            <Link to="/projects/notesForGreatGood">
+            <Link to="/projects/socialMediaDashboard">
               <img src={LeftArrow} alt="arrow left" />
             </Link>
           </li>

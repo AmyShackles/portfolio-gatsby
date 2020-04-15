@@ -32,14 +32,14 @@ const Layout = ({ children }) => {
       <nav role="navigation" className="topnav desktop" id="myTopNav">
         <Link to="/about"> About </Link>
         <div className="dropdown" type="button">
-          <a
+          <div
             className="dropbtn"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
             Projects
-          </a>
+          </div>
           <div className="dropdown-content">
             <Link to="/projects/baseConverter">Base Converter</Link>
             <Link className="active" to="/projects/checkYourDigits">
@@ -49,19 +49,17 @@ const Layout = ({ children }) => {
             <Link to="/projects/iconsForGreatGood">Icons for Great Good</Link>
             <Link to="/projects/lispInterpreter">Lisp Interpreter</Link>
             <Link to="/projects/notesForGreatGood">Notes for Great Good</Link>
+            <Link to="/projects/socialMediaDashboard">
+              Social Media Dashboard
+            </Link>
           </div>
         </div>
         <Link to="/resume">Resume </Link> <Link to="/contact">Contact</Link>
       </nav>
       <nav role="navigation" className="responsive-nav responsive">
-        <a
-          className="icon dropdown"
-          role="button"
-          type="button"
-          data-toggle="dropdown"
-        >
+        <button className="icon dropdown" type="button" data-toggle="dropdown">
           ☰
-        </a>
+        </button>
         <div className="dropdown-content">
           <Link to="/about"> About </Link>
           <Link to="/projects">Projects </Link> <Link to="/resume">Resume</Link>
@@ -73,8 +71,8 @@ const Layout = ({ children }) => {
         <ul>
           <li className="policy-box">
             <span>
-              © AmyShackles 2020
-              {new Date().getFullYear() !== 2020 &&
+              © AmyShackles 2018
+              {new Date().getFullYear() !== 2018 &&
                 ` - ${new Date().getFullYear()}`}
             </span>
           </li>
