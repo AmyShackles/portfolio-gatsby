@@ -105,31 +105,19 @@ const ResumePage = () => {
                 </h4>
 
                 <p>
-                  ◆ Improved application performance by redesigning database
-                  queries and restructuring schemas. Previous to these changes,
-                  sorting of data in the application was impossible. Afterward,
+                  ◆ Developed a process to prepare data for indexing by aggregating data from several collections and updating/reindexing on data change without disruption of search capability
                 </p>
                 <p>
-                  ◆ Implemented Mongoose hooks to keep relational data
-                  consistent and up to date.
-                </p>
+                  ◆ Volunteered to rescue a failed demo, turning it into an MVP in 2 weeks, saving the contract
+               </p>
                 <p>
-                  ◆ Mentored junior developers, troubleshooting issues as they
-                  arose.
-                </p>
+                  ◆  Authored a script to streamline project onboarding that pulled down all 6 relevant git
+repositories, linking where necessary, and installed dependencies
+               </p>
                 <p>
-                  ◆ Developed web applications using React, Redux, Node.js,
-                  Express.js, and MongoDB and an iOS application in Swift.
-                </p>
-                <p>
-                  ◆ Advocated for and implemented increased testing, leading to
-                  an increase from 0 to 100% code coverage in critical areas.
-                </p>
-                <p>
-                  ◆ Refactored applications in various phases of the software
-                  development life cycle.
-                </p>
-              </div>
+                  ◆ Championed testing, increasing coverage from 0 to 100% in critical areas
+               </p>
+             </div>
             </div>
             <div className="row item">
               <div className="twelve columns">
