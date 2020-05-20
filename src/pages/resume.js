@@ -55,6 +55,7 @@ const ResumePage = () => {
                 <li>SQLite</li>
                 <li>MongoDB</li>
                 <li>Mongoose</li>
+                <li>Docker</li>
               </ul>
             </div>
             <div className="three columns">
@@ -101,33 +102,33 @@ const ResumePage = () => {
                 <h3>Skiplist</h3>
                 <h4 className="info">
                   Software Developer <span>&nbsp;&bull;&nbsp;</span>
-                  <em className="date">May 2019-present</em>
+                  <em className="date">May 2019-March 2020</em>
                 </h4>
 
                 <p>
-                  ◆ Improved application performance by redesigning database
-                  queries and restructuring schemas. Previous to these changes,
-                  sorting of data in the application was impossible. Afterward,
+                  ◆ Developed a process to prepare data for sorting by
+                  aggregating data from 4 different collections and reflecting
+                  updates of that data without disruption of search capability
                 </p>
                 <p>
-                  ◆ Implemented Mongoose hooks to keep relational data
-                  consistent and up to date.
+                  ◆ Volunteered onto a team after a failed demo even though the
+                  project was to write a mobile application. Having no previous
+                  iOS, XCode, or Swift experience, I wrote the majority of the
+                  application to make the deadline of the second demo two weeks
+                  later that impressed the client enough to keep the contract.
                 </p>
                 <p>
-                  ◆ Mentored junior developers, troubleshooting issues as they
-                  arose.
+                  ◆ Authored a script to streamline project onboarding that
+                  pulled down all 6 relevant git repositories, linking where
+                  necessary, and installed dependencies
                 </p>
                 <p>
                   ◆ Developed web applications using React, Redux, Node.js,
                   Express.js, and MongoDB and an iOS application in Swift.
                 </p>
                 <p>
-                  ◆ Advocated for and implemented increased testing, leading to
-                  an increase from 0 to 100% code coverage in critical areas.
-                </p>
-                <p>
-                  ◆ Refactored applications in various phases of the software
-                  development life cycle.
+                  ◆ Championed testing, increasing coverage from 0 to 100% in
+                  critical areas
                 </p>
               </div>
             </div>
@@ -247,20 +248,6 @@ const ResumePage = () => {
                   Lambda School <span>&nbsp;&bull;&nbsp;</span>
                   <em className="date">April 2018 - October 2018</em>
                 </h4>
-                <p>
-                  {`◆ Completed 15 weeks of full-stack web development and 10
-                  weeks of computer science curriculum (Curriculum can be found `}
-                  <a href="https://learn.lambdaschool.com/course/cs-fsw)">
-                    here
-                  </a>
-                  .
-                </p>
-                <p>
-                  ◆ Collaborated with other students in Lambda Labs to create an
-                  application that met client specications and negotiated
-                  changes in project scope when our team went from a 5-person
-                  team to a 3-person team in the beginning of the second week
-                </p>
                 <h3>B.S. Psychology, Secondary major in Anthropology</h3>
                 <h4 className="info">
                   Washington State University <span>&nbsp;&bull;&nbsp;</span>
