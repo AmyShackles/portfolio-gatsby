@@ -34,7 +34,7 @@ const LispInterpreter = () => (
         </ul>
       </div>
     </div>
-    <main role="main">
+    <main className="main-projects">
       <div id="lisp-interpreter" className="content-holder two-navs">
         <div className="content-main content-left">
           <div id="lisp-inside" className="left-inside">

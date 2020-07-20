@@ -31,7 +31,7 @@ const SocialMediaDashboard = () => (
         </ul>
       </div>
     </div>
-    <main role="main">
+    <main className="main-projects">
       <div className="img-text">
         <div className="main-text">
           <h1 className="page-title">Social Media Dashboard</h1>

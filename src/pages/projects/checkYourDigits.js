@@ -30,7 +30,7 @@ const CheckYourDigits = () => (
         </ul>
       </div>
     </div>
-    <main role="main">
+    <main className="main-projects">
       <div className="content-holder two-navs">
         <div className="content-main content-left">
           <div className="left-inside">

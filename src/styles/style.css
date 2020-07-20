@@ -51,7 +51,7 @@ main {
   flex-direction: column;
   padding: 0;
 }
-main.projects {
+main.main-projects {
   min-height: calc(100vh - 120px);
   margin-top: 82px;
 }

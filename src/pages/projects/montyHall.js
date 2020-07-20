@@ -31,7 +31,7 @@ const MontyHall = () => (
         </ul>
       </div>
     </div>
-    <main role="main">
+    <main className="main-projects">
       <div className="img-text">
         <Screenshot id="monty-hall-screenshot" />
         <div className="main-text">

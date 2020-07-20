@@ -31,7 +31,7 @@ const IconsForGreatGood = () => (
         </ul>
       </div>
     </div>
-    <main role="main">
+    <main className="main-projects">
       <div className="img-text">
         <Screenshot id="icons-for-great-good-screenshot" />
         <div className="main-text">
