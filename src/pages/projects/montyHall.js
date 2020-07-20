@@ -3,29 +3,29 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import LeftArrow from "../../images/angle-double-left.svg"
 import RightArrow from "../../images/angle-double-right.svg"
-import Screenshot from "../../components/images/notesforgreatgood"
+import Screenshot from "../../components/images/montyhall"
 import SEO from "../../components/seo"
 import "../../styles/style.css"
 
-const NotesForGreatGood = () => (
+const MontyHall = () => (
   <Layout>
     <SEO title="Notes For Great Good" />
     <div role="navigation">
-      <div class="content-nav">
+      <div className="content-nav">
         <ul>
           <li>
-            <Link to="/projects/montyHall">
-              <img src={LeftArrow} alt="link to Monty Hall" />
+            <Link to="/projects/lispInterpreter">
+              <img src={LeftArrow}  alt="link to Lisp Interpreter"/>
             </Link>
           </li>
           <li>
-            <div class="linkToProjects">
+            <div className="linkToProjects">
               <Link to="/projects"> Projects</Link>
             </div>
           </li>
           <li>
-            <Link to="/projects/baseConverter">
-              <img src={RightArrow} alt="arrow right" />
+            <Link to="/projects/notesForGreatGood">
+              <img src={RightArrow} alt="link to Notes for Great Good"/>
             </Link>
           </li>
         </ul>
@@ -33,24 +33,23 @@ const NotesForGreatGood = () => (
     </div>
     <main role="main">
       <div className="img-text">
-        <Screenshot id="notes-for-great-good-screenshot" />
+        <Screenshot id="monty-hall-screenshot" />
         <div className="main-text">
-          <h1 className="page-title">Notes for Great Good</h1>
+          <h1 className="page-title">Monty Hall</h1>
           <h2>
-            Notes for Great Good was built using a Gatsby starter template for
-            blogs and is an application I made to be able to more easily
-            distribute notes I've taken on lectures, books, etc. in the hopes
-            they may be helpful to others. Each note has tags associated with
-            them and individuals can sort notes by tag in order to find notes on
-            their topic of interest.
+            Monty Hall is a browser game built using a Create React App starter.  
+            Meant to simulate the Monty Hall problem, the user is presented with three closed doors and asked to choose a door.
+            Once the user has selected a door, Monty will open a different door to reveal a goat.
+            Monty then asks whether you would like to switch doors or stick with the original door you chose.
+            Monty then reveals whether or not your choice led to you choosing the prize door.
+            Users can run this simulation as many times as they'd like and the win percentages along with the percentage of the time they switched doors or stuck with the original door is provided.
           </h2>
           <div className="project-details">
             <h2 className="tech">Tech</h2>
             <ul>
               <li>
                 <h3>
-                  Gatsby, GraphQL, gatsby-source-filesystem,
-                  gatsby-transformer-remark, gatsby-transformer-sharp
+                  React, React Portals, React Hooks
                 </h3>
               </li>
               <li>
@@ -61,7 +60,7 @@ const NotesForGreatGood = () => (
         </div>
         <div className="buttons">
           <a
-            href="https://github.com/AmyShackles/class-notes"
+            href="https://github.com/AmyShackles/monty_hall"
             aria-label="link to Github repo for notes-for-great-good"
             className="button"
             role="button"
@@ -70,8 +69,8 @@ const NotesForGreatGood = () => (
             <span>Source Code</span>
           </a>
           <a
-            href="https://notes-for-great-good.netlify.com"
-            aria-label="link to notes-for-great-good.netlify website"
+            href="https://monty-hall.netlify.app/"
+            aria-label="link to https://monty-hall.netlify.app/ website"
             className="button"
             type="button"
             role="button"
@@ -84,4 +83,4 @@ const NotesForGreatGood = () => (
   </Layout>
 )
 
-export default NotesForGreatGood
+export default MontyHall

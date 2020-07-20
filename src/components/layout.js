@@ -48,6 +48,7 @@ const Layout = ({ children }) => {
             <Link to="/projects/contractAlchemy">Contract Alchemy</Link>
             <Link to="/projects/iconsForGreatGood">Icons for Great Good</Link>
             <Link to="/projects/lispInterpreter">Lisp Interpreter</Link>
+            <Link to="/projects/montyHall">Monty Hall</Link>
             <Link to="/projects/notesForGreatGood">Notes for Great Good</Link>
             <Link to="/projects/socialMediaDashboard">
               Social Media Dashboard

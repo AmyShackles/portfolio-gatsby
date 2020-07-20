@@ -27,10 +27,9 @@ const LispInterpreter = () => (
           </li>
           <li>
             <Link
-              to="/projects/notesForGreatGood"
-              alt="link to Notes for Great Good"
+              to="/projects/montyHall"
             >
-              <img src={RightArrow} alt="arrow right" />
+              <img src={RightArrow} alt="link to Monty Hall" />
             </Link>
           </li>
         </ul>

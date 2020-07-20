@@ -229,6 +229,47 @@ const ProjectsPage = () => (
               <input type="checkbox" />
               <div className="flip-card-inner">
                 <div className="flip-card-front right">
+                  <h2>Monty Hall</h2>
+                  <p className="click-on">Click me!</p>
+                </div>
+                <div className="flip-card-back left">
+                  <h3>
+                    Browser game to simulate the Monty Hall Problem
+                  </h3>
+                  <h3>Written in React</h3>
+                  <div className="buttons">
+                    <Link
+                      id="montyHallDescription"
+                      to="/projects/montyHall"
+                      role="button"
+                      type="button"
+                      className="button"
+                      aria-label="link to project description for Monty Hall"
+                    >
+                      Project
+                      <br />
+                      Description
+                    </Link>
+                    <a
+                      id="montyHallWebsite"
+                      href="https://monty-hall.netlify.app/"
+                      role="button"
+                      type="button"
+                      className="button"
+                      aria-label="link to website Monty Hall"
+                    >
+                      Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div className="row">
+          <label>
+              <input type="checkbox" />
+              <div className="flip-card-inner">
+                <div className="flip-card-front right">
                   <h2>Notes For Great Good</h2>
                   <p className="click-on">Click me!</p>
                 </div>
