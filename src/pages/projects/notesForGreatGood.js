@@ -11,7 +11,7 @@ const NotesForGreatGood = () => (
   <Layout>
     <SEO title="Notes For Great Good" />
     <div role="navigation">
-      <div class="content-nav">
+      <div className="content-nav">
         <ul>
           <li>
             <Link to="/projects/montyHall">
@@ -19,13 +19,13 @@ const NotesForGreatGood = () => (
             </Link>
           </li>
           <li>
-            <div class="linkToProjects">
+            <div className="linkToProjects">
               <Link to="/projects"> Projects</Link>
             </div>
           </li>
           <li>
-            <Link to="/projects/baseConverter">
-              <img src={RightArrow} alt="arrow right" />
+            <Link to="/projects/socialMediaDashboard">
+              <img src={RightArrow} alt="link to Social Media Dashboard" />
             </Link>
           </li>
         </ul>

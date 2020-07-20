@@ -14,8 +14,8 @@ const IconsForGreatGood = () => (
       <div className="content-nav">
         <ul>
           <li>
-            <Link to="/projects/contractAlchemy" alt="link to Contract Alchemy">
-              <img src={LeftArrow} alt="arrow left" />
+            <Link to="/projects/contractAlchemy">
+              <img src={LeftArrow} alt="link to Contract Alchemy"/>
             </Link>
           </li>
           <li>
@@ -24,8 +24,8 @@ const IconsForGreatGood = () => (
             </div>
           </li>
           <li>
-            <Link to="/projects/lispInterpreter" alt="Link to Lisp Interpreter">
-              <img src={RightArrow} alt="arrow right" />
+            <Link to="/projects/lispInterpreter" >
+              <img src={RightArrow} alt="Link to Lisp Interpreter" />
             </Link>
           </li>
         </ul>

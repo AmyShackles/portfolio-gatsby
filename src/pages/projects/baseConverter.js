@@ -13,7 +13,7 @@ const BaseConverter = () => (
       <div className="content-nav">
         <ul>
           <li>
-            <Link to="/projects/socialMediaDashboard">
+            <Link to="/projects/socialMediaDashboard" alt="link to Social Media Dashboard">
               <img src={LeftArrow} alt="arrow left" />
             </Link>
           </li>
@@ -23,7 +23,7 @@ const BaseConverter = () => (
             </div>
           </li>
           <li>
-            <Link to="/projects/checkYourDigits">
+            <Link to="/projects/checkYourDigits" alt="link to Check Your Digits">
               <img src={RightArrow} alt="arrow right" />
             </Link>
           </li>

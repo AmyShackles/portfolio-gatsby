@@ -10,20 +10,20 @@ const CheckYourDigits = () => (
   <Layout>
     <SEO title="Check Your Digits" />
     <div role="navigation">
-      <div class="content-nav">
+      <div className="content-nav">
         <ul>
           <li>
-            <Link to="/projects/baseConverter">
+            <Link to="/projects/baseConverter" alt="link to Base Converter">
               <img src={LeftArrow} alt="arrow left" />
             </Link>
           </li>
           <li>
-            <div class="linkToProjects">
+            <div className="linkToProjects">
               <Link to="/projects"> Projects</Link>
             </div>
           </li>
           <li>
-            <Link to="/projects/contractAlchemy">
+            <Link to="/projects/contractAlchemy" alt="link to Contract Alchemy">
               <img src={RightArrow} alt="arrow right" />
             </Link>
           </li>

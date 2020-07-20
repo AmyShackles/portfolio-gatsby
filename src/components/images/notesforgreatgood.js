@@ -29,6 +29,7 @@ const NotesForGreatGood = props => {
     <Img
       placeholderClassName={props.id}
       fluid={data.file.childImageSharp.fluid}
+      alt="screenshot of Notes for Great Good website"
     />
   )
 }

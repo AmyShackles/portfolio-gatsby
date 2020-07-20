@@ -29,6 +29,7 @@ const IconsForGreatGood = props => {
     <Img
       placeholderClassName={props.id}
       fluid={data.file.childImageSharp.fluid}
+      alt="screenshot of Icons for Great Good website"
     />
   )
 }

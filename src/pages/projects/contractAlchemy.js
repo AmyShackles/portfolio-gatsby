@@ -11,25 +11,23 @@ const ContractAlchemy = () => (
   <Layout>
     <SEO title="Contract Alchemy" />
     <div role="navigation">
-      <div class="content-nav">
+      <div className="content-nav">
         <ul>
           <li>
-            <a href="/projects/checkYourDigits" alt="link to Check Your Digits">
-              <img src={LeftArrow} alt="arrow left" />
-            </a>
+            <Link to="/projects/checkYourDigits" >
+              <img src={LeftArrow} alt="link to Check Your Digits" />
+            </Link>
           </li>
           <li>
-            <div class="linkToProjects">
+            <div className="linkToProjects">
               <Link to="/projects"> Projects</Link>
             </div>
           </li>
           <li>
-            <a
-              href="/projects/iconsForGreatGood"
-              alt="link to Icons for Great Good"
+            <Link to="/projects/iconsForGreatGood"
             >
-              <img src={RightArrow} alt="arrow right" />
-            </a>
+              <img src={RightArrow} alt="link to Icons for Great Good" />
+            </Link>
           </li>
         </ul>
       </div>

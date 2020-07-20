@@ -11,11 +11,11 @@ const SocialMediaDashboard = () => (
   <Layout>
     <SEO title="Social Media Dashboard" />
     <div role="navigation">
-      <div class="content-nav">
+      <div className="content-nav">
         <ul>
           <li>
             <Link to="/projects/notesForGreatGood">
-              <img src={LeftArrow} alt="arrow left" />
+              <img src={LeftArrow} alt="link to Notes for Great Good" />
             </Link>
           </li>
           <li>
@@ -25,7 +25,7 @@ const SocialMediaDashboard = () => (
           </li>
           <li>
             <Link to="/projects/baseConverter">
-              <img src={RightArrow} alt="arrow right" />
+              <img src={RightArrow} alt="link to Base Converter" />
             </Link>
           </li>
         </ul>

@@ -7,7 +7,7 @@ import "../../styles/style.css"
 const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
-    <main role="main">
+    <main className="main-projects">
       <div className="content-holder">
         <h1 className="page-title">Projects</h1>
         <div>
@@ -306,8 +306,6 @@ const ProjectsPage = () => (
                 </div>
               </div>
             </label>
-          </div>
-          <div className="row">
             <label>
               <input type="checkbox" />
               <div className="flip-card-inner">

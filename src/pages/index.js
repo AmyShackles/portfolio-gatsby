@@ -14,7 +14,7 @@ const IndexPage = () => (
     />
     <main>
       <div className="content-holder main-page">
-        <Avatar />
+        <Avatar id="avatar"/>
         <h1 className="page-title name">Amy Shackles</h1>
         <div className="fa laptop-code">
           <img className="fa laptop-code" src={LaptopIcon} alt="laptop icon" />

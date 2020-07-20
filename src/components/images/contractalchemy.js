@@ -29,6 +29,7 @@ const ContractAlchemy = props => {
     <Img
       placeholderClassName={props.id}
       fluid={data.file.childImageSharp.fluid}
+      alt="screenshot of Contract Alchemy website"
     />
   )
 }

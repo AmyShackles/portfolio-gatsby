@@ -18,14 +18,16 @@ const SocialMediaDashboardDesign = props => {
     query {
       mobileDesignDark: file(relativePath: { eq: "mobile-design-dark.png" }) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 550) {
+            aspectRatio
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       mobileDesignLight: file(relativePath: { eq: "mobile-design-light.png" }) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 550) {
+            aspectRatio
             ...GatsbyImageSharpFluid_withWebp
           }
         }
@@ -50,7 +52,8 @@ const SocialMediaDashboardDesign = props => {
         relativePath: { eq: "social-media-dashboard-mobile-dark.png" }
       ) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 550) {
+            aspectRatio
             ...GatsbyImageSharpFluid_withWebp
           }
         }
@@ -59,7 +62,8 @@ const SocialMediaDashboardDesign = props => {
         relativePath: { eq: "social-media-dashboard-mobile-light.png" }
       ) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 550) {
+            aspectRatio
             ...GatsbyImageSharpFluid_withWebp
           }
         }
@@ -90,25 +94,37 @@ const SocialMediaDashboardDesign = props => {
         <h2 className="mobile-dark-mode">Mobile Dark Mode</h2>
         <h3>Design</h3>
         <h3>Screenshot of Website</h3>
+        <div className="mobile-img">
         <Img
           placeholderClassName={props.id}
           fluid={data.mobileDesignDark.childImageSharp.fluid}
+          alt="design image for mobile dark mode version of social media dashboard"
         />
+        </div>
+        <div className="mobile-img">
         <Img
           placeholderClassName={props.id}
           fluid={data.mobileDark.childImageSharp.fluid}
+          alt="screenshot of website for mobile dark mode version of social media dashboard"
         />
+        </div>
         <h2 className="mobile-light-mode">Mobile Light Mode</h2>
         <h3>Design</h3>
         <h3>Screenshot of Website</h3>
+        <div className="mobile-img">
         <Img
           placeholderClassName={props.id}
           fluid={data.mobileDesignLight.childImageSharp.fluid}
+          alt="design image for mobile light mode version of social media dashboard"
         />
+        </div>
+        <div className="mobile-img">
         <Img
           placeholderClassName={props.id}
           fluid={data.mobileLight.childImageSharp.fluid}
+          alt="screenshot of website for mobile light mode version of social media dashboard"
         />
+        </div>
       </div>
       <div className="desktop-designs">
         <h2 className="desktop-dark-mode">Desktop Dark Mode</h2>
@@ -117,10 +133,12 @@ const SocialMediaDashboardDesign = props => {
         <Img
           placeholderClassName={props.id}
           fluid={data.desktopDesignDark.childImageSharp.fluid}
+          alt="design image for desktop dark mode version of social media dashboard"
         />
         <Img
           placeholderClassName={props.id}
           fluid={data.desktopDark.childImageSharp.fluid}
+          alt="screenshot of website for desktop dark mode version of social media dashboard"
         />
         <h2 className="desktop-light-mode">Desktop Light Mode</h2>
         <h3>Design</h3>
@@ -128,10 +146,12 @@ const SocialMediaDashboardDesign = props => {
         <Img
           placeholderClassName={props.id}
           fluid={data.desktopDesignLight.childImageSharp.fluid}
+          alt="design image for desktop light mode version of social media dashboard"
         />
         <Img
           placeholderClassName={props.id}
           fluid={data.desktopLight.childImageSharp.fluid}
+          alt="screenshot of website for desktop light mode version of social media dashboard"
         />
       </div>
     </div>

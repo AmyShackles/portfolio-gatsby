@@ -29,6 +29,7 @@ const Kittens = props => {
     <Img
       placeholderClassName={props.id}
       fixed={data.file.childImageSharp.fixed}
+      alt="Black and white photo of Robert Lazarus (a brown striped tabby Maine Coon) and Dylan Thomas (a brown and white Maine Coon)"
     />
   )
 }

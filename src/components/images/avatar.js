@@ -13,7 +13,7 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Avatar = ({ children }) => {
+const Avatar = props => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "profile.png" }) {
@@ -29,8 +29,9 @@ const Avatar = ({ children }) => {
   return (
     <div className="avatar-wrapper">
       <Img
-        id="github_logo"
         fluid={data.placeholderImage.childImageSharp.fluid}
+        placeholderClassName={props.id}
+        alt="Purple haired Bitmoji with red glasses and cat ears wearing a lucky cat t-shirt stands behind a brown and white cat, both of them smiling as hearts hover in the air between them"
       />
     </div>
   )
