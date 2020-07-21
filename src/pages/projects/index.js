@@ -7,7 +7,7 @@ import "../../styles/style.css"
 const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
-    <main className="main-projects">
+    <main>
       <div className="content-holder">
         <h1 className="page-title">Projects</h1>
         <div>

@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Link } from "gatsby"
+import { Link, navigate } from "gatsby"
 import Header from "./header"
 import GithubIcon from "../images/github.svg"
 import LinkedInIcon from "../images/linkedin.svg"
@@ -30,32 +30,33 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <nav role="navigation" className="topnav desktop" id="myTopNav">
-        <Link to="/about"> About </Link>
+        <Link to="/about" activeStyle={{backgroundColor: "#555", color: "white"}}> About </Link>
         <div className="dropdown" type="button">
-          <div
+          <Link to="/projects"
             className="dropbtn"
             data-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
+            activeStyle={{backgroundColor: "#555", color: "white"}}
           >
             Projects
-          </div>
-          <div className="dropdown-content">
-            <Link to="/projects/baseConverter">Base Converter</Link>
-            <Link className="active" to="/projects/checkYourDigits">
+          </Link>
+          <div className="dropdown-content" >
+            <Link to="/projects/baseConverter" activeStyle={{backgroundColor: "#555", color: "white"}}>Base Converter</Link>
+            <Link to="/projects/checkYourDigits" activeStyle={{backgroundColor: "#555", color: "white"}}>
               Check Your Digits
             </Link>
-            <Link to="/projects/contractAlchemy">Contract Alchemy</Link>
-            <Link to="/projects/iconsForGreatGood">Icons for Great Good</Link>
-            <Link to="/projects/lispInterpreter">Lisp Interpreter</Link>
-            <Link to="/projects/montyHall">Monty Hall</Link>
-            <Link to="/projects/notesForGreatGood">Notes for Great Good</Link>
-            <Link to="/projects/socialMediaDashboard">
+            <Link to="/projects/contractAlchemy" activeStyle={{backgroundColor: "#555", color: "white"}}>Contract Alchemy</Link>
+            <Link to="/projects/iconsForGreatGood" activeStyle={{backgroundColor: "#555", color: "white"}}>Icons for Great Good</Link>
+            <Link to="/projects/lispInterpreter" activeStyle={{backgroundColor: "#555", color: "white"}}>Lisp Interpreter</Link>
+            <Link to="/projects/montyHall" activeStyle={{backgroundColor: "#555", color: "white"}}>Monty Hall</Link>
+            <Link to="/projects/notesForGreatGood" activeStyle={{backgroundColor: "#555", color: "white"}}>Notes for Great Good</Link>
+            <Link to="/projects/socialMediaDashboard" activeStyle={{backgroundColor: "#555", color: "white"}}>
               Social Media Dashboard
             </Link>
           </div>
         </div>
-        <Link to="/resume">Resume </Link> <Link to="/contact">Contact</Link>
+        <Link to="/resume" activeStyle={{backgroundColor: "#555", color: "white"}}>Resume </Link> <Link to="/contact" activeStyle={{backgroundColor: "#555", color: "white"}}>Contact</Link>
       </nav>
       <nav role="navigation" className="responsive-nav responsive">
         <button className="icon dropdown" type="button" data-toggle="dropdown">
