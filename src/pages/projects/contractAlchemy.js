@@ -65,7 +65,7 @@ const ContractAlchemy = () => (
         </div>
         <div className="buttons">
           <a
-            href="https://github.com/lambda-school-labs/cs10-labor-pos"
+            href="https://github.com/AmyShackles/CS10-labor-pos"
             aria-label="link to Github repo for ContractAlchemy"
             className="button"
             role="button"
@@ -74,7 +74,7 @@ const ContractAlchemy = () => (
             <span>Source Code</span>
           </a>
           <a
-            href="https://contractalchemypos.com"
+            href="https://contractalchemy.netlify.app"
             aria-label="link to contractAlchemy website"
             className="button"
             type="button"
