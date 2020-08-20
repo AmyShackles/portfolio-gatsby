@@ -11,8 +11,8 @@
     force = true
 
 [[redirects]]
-    from = "/blog/*"
-    to = "https://blog.amyshackles.com/:splat"
+    from = "https://blog.amyshackles.com/*
+    to = "https://amyshackles.com/blog/:splat
     status = 200
     force = true
 
