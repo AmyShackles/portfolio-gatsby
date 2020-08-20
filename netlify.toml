@@ -5,8 +5,8 @@
 
 
 [[redirects]]
-    from = "https://blog.amyshackles.com/*"
-    to = "https://amyshackles.com/blog/:splat"
+    from = "https://amyshackles.com/blog/*"
+    to = "https://blog.amyshackles.com/:splat"
     status = 200
 
 [[headers]]
