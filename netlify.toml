@@ -6,8 +6,9 @@
 
 [[redirects]]
     from = "/blog/*"
-    to = "https://blog.amyshackles.com/:splat"
+    to = "https://blog.amyshackles.com/index.html"
     status = 200
+    force = true
 
 [[redirects]]
     from = "https://amyshackles.com/tags/*"
