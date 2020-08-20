@@ -5,9 +5,28 @@
 
 
 [[redirects]]
-    from = "https://amyshackles.com/blog/*"
-    to = "https://blog.amyshackles.com/:splat"
-    status = 200
+    from = "https://amyshackles.com/blog"
+    to = "https://blog.amyshackles.com"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "https://amyshackles.com/tags/*"
+    to = "https://blog.amyshackles.com/tags/:splat"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "https://amyshackles.com/categories/*"
+    to = https://blog.amyshackles.com/categories/:splat"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "https://amyshackles.com/post/*"
+    to = "https://blog.amyshackles.com/post/:splat"
+    status = 301
+    force = true
 
 [[headers]]
     for = "/*"
