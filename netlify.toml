@@ -5,7 +5,7 @@
 
 
 [[redirects]]
-    from = "/blog/*"
+    from = "/blog"
     to = "https://blog.amyshackles.com/index.html"
     status = 200
     force = true
