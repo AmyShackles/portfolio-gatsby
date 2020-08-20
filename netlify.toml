@@ -11,10 +11,9 @@
     force = true
 
 [[redirects]]
-    from = "https://amyshackles.com/blog/*"
+    from = "/blog/*"
     to = "https://blog.amyshackles.com/:splat"
     status = 200
-    force = true
 
 [[headers]]
     for = "/*"
