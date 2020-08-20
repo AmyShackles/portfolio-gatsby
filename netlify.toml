@@ -3,6 +3,11 @@
     from = "https://amyshackles.netlify.com/*"
     to = "https://amyshackles.com/:splat 301!"
 
+
+[[redirects]]
+    from = "/blog"
+    to = "https://blog.amyshackles.com/ 200!"
+
 [[headers]]
     for = "/*"
     [headers.values]
