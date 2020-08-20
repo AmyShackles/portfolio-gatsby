@@ -4,13 +4,6 @@
     to = "https://amyshackles.com/:splat 301!"
 
 
-[[redirects]]
-    from = "/blog"
-    to = "https://blog.amyshackles.com/index.html"
-    status = 301
-    force = true
-
-
 [[headers]]
     for = "/*"
     [headers.values]
