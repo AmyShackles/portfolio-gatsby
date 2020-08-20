@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Link, navigate } from "gatsby"
+import { Link } from "gatsby"
 import Header from "./header"
 import GithubIcon from "../images/github.svg"
 import LinkedInIcon from "../images/linkedin.svg"
@@ -31,6 +31,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <nav role="navigation" className="topnav desktop" id="myTopNav">
         <Link to="/about" activeStyle={{backgroundColor: "#555", color: "white"}}> About </Link>
+        <a href="https://blog.amyshackles.com">Blog</a>
         <div className="dropdown" type="button">
           <Link to="/projects"
             className="dropbtn"
@@ -64,6 +65,7 @@ const Layout = ({ children }) => {
         </button>
         <div className="dropdown-content">
           <Link to="/about"> About </Link>
+          <a href="https://blog.amyshackles.com">Blog</a>
           <Link to="/projects">Projects </Link> <Link to="/resume">Resume</Link>
           <Link to="/contact">Contact</Link>
         </div>
