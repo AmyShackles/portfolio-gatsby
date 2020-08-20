@@ -5,12 +5,6 @@
 
 
 [[redirects]]
-    from = "/blog"
-    to = "https://blog.amyshackles.com"
-    status = 200
-    force = true
-
-[[redirects]]
     from = "/blog/*"
     to = "https://blog.amyshackles.com/:splat"
     status = 200
