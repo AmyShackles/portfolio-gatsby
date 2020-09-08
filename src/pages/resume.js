@@ -106,16 +106,13 @@ const ResumePage = () => {
                 </h4>
 
                 <p>
-                  ◆ Developed a process to prepare data for sorting by
-                  aggregating data from 4 different collections and reflecting
-                  updates of that data without disruption of search capability
+                ◆ Developed an aggregate data pipeline to streamline data fetching and prevent server crashes
                 </p>
                 <p>
-                  ◆ Volunteered onto a team after a failed demo even though the
-                  project was to write a mobile application. Having no previous
-                  iOS, XCode, or Swift experience, I wrote the majority of the
-                  application to make the deadline of the second demo two weeks
-                  later that impressed the client enough to keep the contract.
+                ◆ Delivered an MVP iOS inventory tracking app with ML object detection in two weeks to retain a client
+                </p>
+                <p>
+                ◆ Collaborated with a client to establish acceptance criteria and create user stories for Agile development
                 </p>
                 <p>
                   ◆ Authored a script to streamline project onboarding that
@@ -140,21 +137,13 @@ const ResumePage = () => {
                   <em className="date">October 2016 - January 2018</em>
                 </h4>
                 <p>
-                  ◆ Led a 4-person team responsible for performing quality
-                  assessment of over 200 contractors on a quarterly basis
+                ◆ Led a 4-person team performing quality assessment of over 200 contractors on a quarterly basis
                 </p>
                 <p>
-                  ◆ Conducted 1:1 meetings with individuals falling below
-                  quality standards to walk through assessments and provide
-                  mentorship
+                ◆ Conducted 1:1 meetings with individuals falling below quality standards
                 </p>
                 <p>
-                  ◆ Trained new members of Quality Assurance team (including QA
-                  Manager)
-                </p>
-                <p>
-                  ◆ Maintained spreadsheets tracking progress of QA team,
-                  updating QA Manager on status
+                ◆ Aided in establishing metrics to standardize assessment and allow for priority escalation
                 </p>
               </div>
               <div className="twelve columns">
@@ -165,21 +154,14 @@ const ResumePage = () => {
                 </h4>
 
                 <p>
-                  ◆ Compared insurance transcripts to the audio associated with
-                  those claims to ensure accuracy of transcription
+                ◆ Assessed accuracy of audio transcripts
                 </p>
                 <p>
-                  ◆ Advocated for changes in QA policy to allow for priority
-                  escalation
+                ◆ Created and maintained spreadsheets to track QA assessment history to observe patterns in behavior
                 </p>
                 <p>
-                  ◆ Aided in establishing more measurable quality assurance
-                  standards in order to standardize assessment
-                </p>
-                <p>
-                  ◆ Created and maintained spreadsheets to track QA team
-                  progress and track QA assessment history to observe patterns
-                  in behavior
+                 ◆ Advocated for changes in QA policy
+
                 </p>
               </div>
               <div className="twelve columns">
@@ -196,10 +178,7 @@ const ResumePage = () => {
                   specifications
                 </p>
                 <p>
-                  ◆ Communicated with clients on any factors that may cause a
-                  transcript to be completed after the agreed-upon deadline as
-                  soon as those factors became apparent (poor audio quality,
-                  accents I was unfamiliar with, etc.)
+                ◆ Communicated with clients on any factors that may affect delivery
                 </p>
                 <p>
                   ◆ Researched industry-specific information in order to ensure
@@ -283,6 +262,16 @@ const ResumePage = () => {
                   utilizing active listening skills to assess their situation
                   before providing information and/or referrals to get the help
                   and support they needed
+                </p>
+              </div>
+              <div className="twelve columns">
+                <h3>International Peer Mentor</h3>
+                <h4 className="info">
+                  Washington State University Office of International Programs<span>&nbsp;&bull;&nbsp;</span>
+                  <em className="date">January 2011 - May 2011</em>
+                </h4>
+                <p>
+                  ◆ Helped international students adjust to living in the United States and attending Washington State.
                 </p>
               </div>
             </div>
