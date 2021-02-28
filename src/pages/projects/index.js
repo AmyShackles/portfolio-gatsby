@@ -172,7 +172,7 @@ const ProjectsPage = () => (
                     </Link>
                     <a
                       id="iconsForGreatGoodWebsite"
-                      href="https://icons-for-great-good.netlify.com"
+                      href="https://hashcon.netlify.app"
                       aria-label="link to Icons for Great Good website"
                       role="button"
                       type="button"
