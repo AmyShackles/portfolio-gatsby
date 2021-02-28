@@ -68,8 +68,8 @@ const IconsForGreatGood = () => (
             <span>Source Code</span>
           </a>
           <a
-            href="https://icons-for-great-good.netlify.com"
-            aria-label="link to icons-for-great-good.netlify website"
+            href="https://hashcon.netlify.app"
+            aria-label="link to https://hashcon.netlify.app website"
             className="button"
             type="button"
             role="button"
